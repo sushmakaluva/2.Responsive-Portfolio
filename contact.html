@@ -16,7 +16,9 @@
 <body>
     <nav class="navbar navbar-expand-sm bg-info navbar-dark">
         <!-- Brand/logo -->
-        <a class="navbar-brand"><h1>Sushma Kaluva</h1></a>
+        <header>
+            <a class="navbar-brand"><h1>Sushma Kaluva</h1></a>
+        </header>
         
         <!-- Links -->
         <ul class="navbar-nav ml-auto">
@@ -33,10 +35,11 @@
     </nav>
 
     <div class="container ">
-       <div class="jumbotron p-5 m-3 media-body">
-            <h4 class="text-info"><strong>Contact Information</strong></h4>
+        <main>
+       <div class="jumbotron mt-3 mb-3 pt-5 pb-4 media-body">
+            <h4 class="text-dark"><strong>Contact Information</strong></h4>
             <hr> 
-            <div class="row">
+            <div class="row row-cols-1 row-cols-xs-1 row-cols-sm-1 row-cols-md-2">
 
                 <div class="col">
                     <p>I'd love to hear from you !</p>
@@ -55,9 +58,9 @@
                                             <span>kaluvasushma@gmail.com</span></li>
                         </ul>
                 </div>
-
-</div>
-            <h4 class="text-info"><strong>Send me a message</strong></h4>
+            </div>
+            <br>
+            <h4 class="text-dark"><strong>Send me a message</strong></h4>
             <hr>    
             <form>
                 <div class="form-group">
@@ -70,15 +73,17 @@
                 </div>
                 <div class="form-group">
                   <label for="inputMessage">Message</label>
-                  <textarea class="form-control" id="inputMessage" rows="5" placeholder="Your message...."></textarea>
+                  <textarea class="form-control" id="inputMessage" rows="3" placeholder="Your message...."></textarea>
                 </div>
                 <button type="submit" class="btn btn-info">SEND</button>
-              </form>
+            </form>
         </div>
+      </main>
 
         <footer class="footer">
             <nav class="navbar fixed-bottom navbar-dark bg-info justify-content-center">
-                <a class="navbar-brand ">&copy;[2020] . https://sushmakaluva.com</a>
+                <a class="navbar-brand " href="https://github.com/sushmakaluva"><i class="fa fa-github"></i></a>
+                <a class="navbar-brand " href="https://www.linkedin.com/in/sushma-reddy-kaluva/"><i class="fa fa-linkedin-square"></i></a>
             </nav>
          </footer>
 

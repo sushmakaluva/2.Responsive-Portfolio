@@ -2,4 +2,22 @@ ul {
   list-style-type: none;
 }
 
+.paragraph {
+  font-size:17px;
 
+}
+
+.container {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron {
+background-image: url("background_img.jpeg");
+background-repeat: repeat;
+
+}
+
+.card-title {
+  text-decoration: underline;
+}
