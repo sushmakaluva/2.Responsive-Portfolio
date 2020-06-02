@@ -18,8 +18,8 @@
 
 ### Challenges faced
 
-Responsive layout creation
-Responsive pages creation
++ Responsive layout creation
++ Responsive pages creation
 
 
 ### Components used to build this portfolio:
