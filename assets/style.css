@@ -13,11 +13,15 @@ ul {
 }
 
 .jumbotron {
-background-image: url("background_img.jpeg");
-background-repeat: repeat;
+  background-image: url("background_img.jpeg");
+  background-repeat: repeat;
 
 }
 
 .card-title {
   text-decoration: underline;
+}
+
+.footer-margin {
+  margin-top:15%;
 }
