@@ -1,8 +1,7 @@
 # Responsive-Portfolio
 
 
-## Title
-**My Portfolio-Sushma**
+## My Portfolio
 
 ### Description
 
@@ -18,22 +17,16 @@
 
 ### Challenges faced
 
-+ Responsive layout creation
-+ Responsive pages creation
++ Making the pages responsive
 
 
 ### Components used to build this portfolio:
 
-+ To make the page responsive using responsive images & layouts
++ Bootstrap components - margin,padding,footer,header,nav-bar,cards
 + Bootstrap rows and columns 
 + Bootstrap Nav-bar
-+ Favicon images
++ Favicon image
 + Semantic HTML
-
-
-### Validation:
-+ 100% validated using HTML validation service
-
 
 
 
