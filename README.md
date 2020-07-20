@@ -26,7 +26,7 @@
 + Favicon image
 + Semantic HTML
 
-## Website URL: https://sushmakaluva.github.io/2.Responsive-Portfolio/
+## Website URL: https://sushmakaluva.github.io/Responsive-Portfolio/
 
 
 
