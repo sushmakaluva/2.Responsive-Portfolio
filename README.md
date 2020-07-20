@@ -1,7 +1,5 @@
 # My Portfolio - responsive
 
-## Website URL: https://sushmakaluva.github.io/2.Responsive-Portfolio/
-
 
 ### Description
 
@@ -27,6 +25,8 @@
 + Bootstrap Nav-bar
 + Favicon image
 + Semantic HTML
+
+## Website URL: https://sushmakaluva.github.io/2.Responsive-Portfolio/
 
 
 
