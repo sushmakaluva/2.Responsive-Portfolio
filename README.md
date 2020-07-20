@@ -1,8 +1,7 @@
-# Responsive-Portfolio
+# My Portfolio - responsive
 
 ## Website URL: https://sushmakaluva.github.io/2.Responsive-Portfolio/
 
-## My Portfolio
 
 ### Description
 
