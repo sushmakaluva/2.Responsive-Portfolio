@@ -24,11 +24,10 @@ ul {
   margin-top: 15%;
 }
 
-/* body {
+body {
   margin: 0;
-  height: 100vh;
   padding: 0;
-} */
+}
 
 #particles-js {
   height: 100%;
