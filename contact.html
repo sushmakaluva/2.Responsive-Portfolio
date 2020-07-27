@@ -33,119 +33,125 @@
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm bg-info navbar-dark">
-      <!-- Brand/logo -->
-      <header>
-        <a class="navbar-brand" href="index.html"
-          ><h1 id="my-name">Sushma Kaluva</h1></a
-        >
-      </header>
-
-      <!-- Links -->
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html"><strong>About</strong></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html"
-            ><strong>Portfolio </strong></a
+    <div id="particles-js">
+      <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+        <!-- Brand/logo -->
+        <header>
+          <a class="navbar-brand" href="index.html"
+            ><h1 id="my-name">Sushma Kaluva</h1></a
           >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html"><strong>Contact</strong></a>
-        </li>
-      </ul>
-    </nav>
+        </header>
 
-    <div class="container">
-      <main>
-        <div class="jumbotron mt-3 mb-3 pt-5 pb-4 media-body">
-          <h4 class="text-dark"><strong>Resume</strong></h4>
-          <hr />
-          <p>
-            Click
-            <a
-              href="https://drive.google.com/file/d/1139vtQ1P9Ojcx9w9LKU2yAZlcReXIs80/view?usp=sharing"
+        <!-- Links -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><strong>About</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html"
+              ><strong>Portfolio </strong></a
             >
-              here</a
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"><strong>Contact</strong></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="container">
+        <main>
+          <div class="jumbotron mt-3 mb-3 pt-5 pb-4 media-body">
+            <h4 class="text-dark"><strong>Resume</strong></h4>
+            <hr />
+            <p>
+              Click
+              <a
+                href="https://drive.google.com/file/d/1139vtQ1P9Ojcx9w9LKU2yAZlcReXIs80/view?usp=sharing"
+              >
+                here</a
+              >
+              to view my resume
+            </p>
+            <br />
+            <h4 class="text-dark"><strong>Contact Information</strong></h4>
+            <hr />
+            <div
+              class="row row-cols-1 row-cols-xs-1 row-cols-sm-1 row-cols-md-2"
             >
-            to view my resume
-          </p>
-          <br />
-          <h4 class="text-dark"><strong>Contact Information</strong></h4>
-          <hr />
-          <div class="row row-cols-1 row-cols-xs-1 row-cols-sm-1 row-cols-md-2">
-            <div class="col">
-              <p>I'd love to hear from you !</p>
+              <div class="col">
+                <p>I'd love to hear from you !</p>
+              </div>
+
+              <div class="col">
+                <ul class="list-group">
+                  <li>
+                    <i class="fa fa-building"></i>
+                    <span>Development & Design</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-phone"></i>
+                    <span>647-917-9647</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-envelope"></i>
+                    <span>kaluvasushma@gmail.com</span>
+                  </li>
+                </ul>
+              </div>
             </div>
 
-            <div class="col">
-              <ul class="list-group">
-                <li>
-                  <i class="fa fa-building"></i>
-                  <span>Development & Design</span>
-                </li>
-                <li>
-                  <i class="fa fa-phone"></i>
-                  <span>647-917-9647</span>
-                </li>
-                <li>
-                  <i class="fa fa-envelope"></i>
-                  <span>kaluvasushma@gmail.com</span>
-                </li>
-              </ul>
-            </div>
+            <h4 class="text-dark"><strong>Send me a message</strong></h4>
+            <hr />
+            <form>
+              <div class="form-group">
+                <label for="inputName">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputName"
+                  placeholder="Your name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail"
+                  placeholder="example@gmail.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="inputMessage">Message</label>
+                <textarea
+                  class="form-control"
+                  id="inputMessage"
+                  rows="3"
+                  placeholder="Your message...."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-info">SEND</button>
+            </form>
           </div>
+        </main>
 
-          <h4 class="text-dark"><strong>Send me a message</strong></h4>
-          <hr />
-          <form>
-            <div class="form-group">
-              <label for="inputName">Name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="inputName"
-                placeholder="Your name"
-              />
-            </div>
-            <div class="form-group">
-              <label for="inputEmail">Email</label>
-              <input
-                type="email"
-                class="form-control"
-                id="inputEmail"
-                placeholder="example@gmail.com"
-              />
-            </div>
-            <div class="form-group">
-              <label for="inputMessage">Message</label>
-              <textarea
-                class="form-control"
-                id="inputMessage"
-                rows="3"
-                placeholder="Your message...."
-              ></textarea>
-            </div>
-            <button type="submit" class="btn btn-info">SEND</button>
-          </form>
-        </div>
-      </main>
-
-      <footer class="footer footer-margin">
-        <nav
-          class="navbar fixed-bottom navbar-dark bg-info justify-content-center"
-        >
-          <a class="navbar-brand" href="https://github.com/sushmakaluva"
-            ><i class="fa fa-github"></i
-          ></a>
-          <a
-            class="navbar-brand"
-            href="https://www.linkedin.com/in/sushma-reddy-kaluva/"
-            ><i class="fa fa-linkedin-square"></i
-          ></a>
-        </nav>
-      </footer>
+        <footer class="footer footer-margin">
+          <nav
+            class="navbar fixed-bottom navbar-dark bg-info justify-content-center"
+          >
+            <a class="navbar-brand" href="https://github.com/sushmakaluva"
+              ><i class="fa fa-github fa-lg"></i
+            ></a>
+            <a
+              class="navbar-brand"
+              href="https://www.linkedin.com/in/sushma-reddy-kaluva/"
+              ><i class="fa fa-linkedin-square fa-lg"></i
+            ></a>
+          </nav>
+        </footer>
+      </div>
     </div>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
