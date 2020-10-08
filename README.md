@@ -16,6 +16,7 @@
 ### Challenges faced
 
 + Making the pages responsive
++ Adding particles.js
 
 
 ### Components used to build this portfolio:
