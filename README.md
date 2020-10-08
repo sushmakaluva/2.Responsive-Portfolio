@@ -25,4 +25,4 @@ https://sushmakaluva.github.io/Responsive-Portfolio/
 
 ## Website screenshot:
 
-![Screenshot](/assets/portfolio_homepage.png)
+![Screenshot](/assets/homepage_pic.png)
